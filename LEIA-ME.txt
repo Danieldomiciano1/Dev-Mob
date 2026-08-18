@@ -1,0 +1,31 @@
+COMO RODAR O PROJETO
+=====================
+
+1. Extraia este .zip em uma pasta no seu computador.
+
+2. Abra um terminal dentro dessa pasta (onde está o arquivo package.json).
+
+3. Instale as dependências:
+   npm install
+
+4. Rode o projeto:
+   npx expo start
+
+5. Escaneie o QR code com o app "Expo Go" (Android/iOS) ou pressione:
+   - "a" para abrir no emulador Android
+   - "i" para abrir no emulador iOS (só no Mac)
+   - "w" para abrir no navegador
+
+ESTRUTURA DO PROJETO
+=====================
+
+App.js                     -> tela principal, junta tudo
+componente.js               -> componente de login/data de nascimento (já existia no seu projeto)
+components/Header.js        -> Exercício 1: cabeçalho fixo, sem props
+components/Card.js          -> Exercício 2: recebe nome e imagem como props
+components/BoasVindas.js    -> Exercício 3: recebe nome como prop, exibe em negrito
+components/BotaoAlerta.js   -> Exercício 4: recebe texto como prop, mostra Alert ao clicar
+
+Cada exercício está isolado em seu próprio arquivo dentro de components/,
+e todos são importados e usados dentro do App.js para você ver tudo
+funcionando junto na mesma tela.
